@@ -1,0 +1,14 @@
+1. 基本API复习
+```javascript
+array.shift();
+array.unshift();
+array.filter(function);
+//return an array for all qualified data fields
+string.encodeURI();
+array.filter(function (item, index, arr), thisValue)
+array.map(function (item, index, arr), thisValue)
+//filter和map都只能用于数组而无法用于字符串
+//filter会根据function中return的规则过滤数组，而map则是按照return的规则改写数组
+```
+
+2. 数组去重方法（symbol table）
